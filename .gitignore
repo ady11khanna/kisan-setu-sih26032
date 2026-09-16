@@ -1,0 +1,20 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Production build outputs
+dist
+dist-ssr
+*.local
+
+# SQLite Database WAL & SHM temporary files (keep kisan_setu.db if desired, or ignore)
+*.log
+*.shm
+*.wal
+
+# Environment & Editor files
+.env
+.env.local
+.vscode/
+.idea/
+.DS_Store
